@@ -1,0 +1,10 @@
+{
+    "presets": ["env","stage-0"],
+    "plugins":["transform-runtime","babel-plugin-transform-remove-strict-mode",[
+        "component",
+        {
+          "libraryName": "element-ui",
+          "styleLibraryName": "theme-chalk"
+        }
+      ]]
+}
